@@ -1,0 +1,4 @@
+a) Reused Code: I used the supplied solution for Project B. I also added a function for computing tcp checksum: void compute_tcp_checksum(struct iphdr *pIph, unsigned short *ipPayload) from this website:http://www.roman10.net/2011/11/27/how-to-calculate-iptcpudp-checksumpart-2-implementation/
+b) Complete: I completed this stage and everything appears to be working correctly.For all stages, there is an issue where sometimes the first time running the program after running all the set up commands (tunnel setup, iptable commands, etc) it doesn't work correctly, sebsequent runs seem to work fine. The first couple of times the program recieves packets from the tunnel that I didn't send and I'm not sure why.
+c) The connection would be terminated.
+d) When the kernel receives the SYN_ACK it does not recognize the socket/port number combination so it tries to terminate the connection.
