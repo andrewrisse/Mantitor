@@ -1,0 +1,1659 @@
+[csci551@localhost oldprojc]$ sudo ./projc configs7
+[sudo] password for csci551: 
+Stage:7	 Nodes:4	 Hops: 0
+index:0, IP:10.0.2.15
+index:1, IP:192.168.201.2
+index:2, IP:192.168.202.2
+index:3, IP:192.168.203.2
+index:4, IP:192.168.204.2
+index:5, IP:10.0.9.15
+index:6, IP:0.0.0.0
+index:7, IP:0.0.0.0
+index:8, IP:0.0.0.0
+index:9, IP:0.0.0.0
+proxy port: 38233
+router: proxy port: 38233
+[csci551@localhost oldprojc]$ icmp socket create succeed
+router: proxy port: 38233
+router: proxy port: 38233
+router: proxy port: 38233
+icmp socket create succeed
+icmp socket create succeed
+tcp socket create succeed
+router:4, pid: 1692, IP: 192.168.204.2
+**Proxy** PID: 1688, received packet from port: 36172, length:4
+tcp socket create succeed
+tcp socket create succeed
+icmp socket create succeed
+router:1, pid: 1689, IP: 192.168.201.2
+**Proxy** PID: 1688, received packet from port: 41927, length:4
+tcp socket create succeed
+router:3, pid: 1691, IP: 192.168.203.2
+**Proxy** PID: 1688, received packet from port: 55548, length:4
+router:2, pid: 1690, IP: 192.168.202.2
+**Proxy** PID: 1688, received packet from port: 40635, length:4
+****************build circuit **********************
+****************build circuit done *****************
+**Proxy** PID:1688, received packet from tun, length: 48
+**Proxy** PID:1688, received packet from tun, length: 48
+**Proxy** PID:1688, received packet from tun, length: 48
+**Proxy** PID:1688, received packet from tun, length: 48
+**Proxy** PID:1688, received packet from tun, length: 60
+**Router** 1, PID: 1689, TCP from port: 38233, length: 60
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 60  Bytes(Size of Packet)
+   |-Identification    : 30140
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 14003
+   |-Source IP        : 10.0.2.15
+   |-Destination IP   : 128.30.2.32
+TCP Header
+   |-Source Port      : 33159
+   |-Destination Port : 80
+   |-Sequence Number    : 2650565633
+   |-Acknowledge Number : 0
+   |-Header Length      : 10 DWORDS or 40 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 0
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 1
+   |-Finish Flag          : 0
+   |-Window         : 29200
+   |-Checksum       : 18914
+   |-Urgent Pointer : 0
+
+tcp pack len: 10
+send tcp packet, size:40
+**Proxy** PID:1688, received packet from tun, length: 60
+**Router** 1, PID: 1689, TCP from port: 38233, length: 60
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 60  Bytes(Size of Packet)
+   |-Identification    : 30141
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 14002
+   |-Source IP        : 10.0.2.15
+   |-Destination IP   : 128.30.2.32
+TCP Header
+   |-Source Port      : 33159
+   |-Destination Port : 80
+   |-Sequence Number    : 2650565633
+   |-Acknowledge Number : 0
+   |-Header Length      : 10 DWORDS or 40 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 0
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 1
+   |-Finish Flag          : 0
+   |-Window         : 29200
+   |-Checksum       : 17888
+   |-Urgent Pointer : 0
+
+tcp pack len: 10
+send tcp packet, size:40
+**Proxy** PID:1688, received packet from tun, length: 60
+**Router** 1, PID: 1689, TCP from port: 38233, length: 60
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 60  Bytes(Size of Packet)
+   |-Identification    : 30142
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 14001
+   |-Source IP        : 10.0.2.15
+   |-Destination IP   : 128.30.2.32
+TCP Header
+   |-Source Port      : 33159
+   |-Destination Port : 80
+   |-Sequence Number    : 2650565633
+   |-Acknowledge Number : 0
+   |-Header Length      : 10 DWORDS or 40 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 0
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 1
+   |-Finish Flag          : 0
+   |-Window         : 29200
+   |-Checksum       : 15840
+   |-Urgent Pointer : 0
+
+tcp pack len: 10
+send tcp packet, size:40
+**Router** 1, PID: 1689, TCP from raw socket, length: 44
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 44  Bytes(Size of Packet)
+   |-Identification    : 26
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 28361
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1472001
+   |-Acknowledge Number : 2650565634
+   |-Header Length      : 6 DWORDS or 24 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 1
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 35391
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:44
+**Proxy** PID:1688, received packet from tun, length: 40
+**Router** 1, PID: 1689, TCP from port: 38233, length: 40
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 40  Bytes(Size of Packet)
+   |-Identification    : 30143
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 14020
+   |-Source IP        : 10.0.2.15
+   |-Destination IP   : 128.30.2.32
+TCP Header
+   |-Source Port      : 33159
+   |-Destination Port : 80
+   |-Sequence Number    : 2650565634
+   |-Acknowledge Number : 1472002
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 29200
+   |-Checksum       : 44424
+   |-Urgent Pointer : 0
+
+tcp pack len: 5
+send tcp packet, size:20
+**Proxy** PID:1688, received packet from tun, length: 46
+**Proxy** PID:1688, received packet from tun, length: 40
+**Router** 1, PID: 1689, TCP from port: 38233, length: 46
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 46  Bytes(Size of Packet)
+   |-Identification    : 30144
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 14013
+   |-Source IP        : 10.0.2.15
+   |-Destination IP   : 128.30.2.32
+TCP Header
+   |-Source Port      : 33159
+   |-Destination Port : 80
+   |-Sequence Number    : 2650565634
+   |-Acknowledge Number : 1472002
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 29200
+   |-Checksum       : 58122
+   |-Urgent Pointer : 0
+
+tcp pack len: 5
+send tcp packet, size:26
+**Router** 1, PID: 1689, TCP from port: 38233, length: 40
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 40  Bytes(Size of Packet)
+   |-Identification    : 30145
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 14018
+   |-Source IP        : 10.0.2.15
+   |-Destination IP   : 128.30.2.32
+TCP Header
+   |-Source Port      : 33159
+   |-Destination Port : 80
+   |-Sequence Number    : 2650565640
+   |-Acknowledge Number : 1472002
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 1
+   |-Window         : 29200
+   |-Checksum       : 44417
+   |-Urgent Pointer : 0
+
+tcp pack len: 5
+send tcp packet, size:20
+**Router** 1, PID: 1689, TCP from raw socket, length: 40
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 40  Bytes(Size of Packet)
+   |-Identification    : 27
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 28364
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1472002
+   |-Acknowledge Number : 2650565640
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 41462
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:40
+**Router** 1, PID: 1689, TCP from raw socket, length: 40
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 40  Bytes(Size of Packet)
+   |-Identification    : 28
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 28363
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1472002
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 41461
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:40
+**Router** 1, PID: 1689, TCP from raw socket, length: 1023
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 2960  Bytes(Size of Packet)
+   |-Identification    : 29
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 25442
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1472002
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 5996
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:1023
+**Proxy** PID:1688, received packet from tun, length: 48
+**Router** 1, PID: 1689, TCP from raw socket, length: 1023
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 1500  Bytes(Size of Packet)
+   |-Identification    : 31
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 26900
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1472002
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 35792
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:1023
+**Router** 1, PID: 1689, TCP from raw socket, length: 1023
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 1500  Bytes(Size of Packet)
+   |-Identification    : 32
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 26899
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1472002
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 35792
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:1023
+**Router** 1, PID: 1689, TCP from raw socket, length: 1023
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 1500  Bytes(Size of Packet)
+   |-Identification    : 37
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 26894
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1472002
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 35792
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:1023
+**Router** 1, PID: 1689, TCP from raw socket, length: 1023
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 1500  Bytes(Size of Packet)
+   |-Identification    : 38
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 26893
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1472002
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 35792
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:1023
+**Proxy** PID:1688, received packet from tun, length: 48
+**Router** 1, PID: 1689, TCP from raw socket, length: 1023
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 1500  Bytes(Size of Packet)
+   |-Identification    : 39
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 26892
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1472002
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 35792
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:1023
+**Router** 1, PID: 1689, TCP from raw socket, length: 1023
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 1500  Bytes(Size of Packet)
+   |-Identification    : 40
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 26891
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1472002
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 35792
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:1023
+**Router** 1, PID: 1689, TCP from raw socket, length: 1023
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 1500  Bytes(Size of Packet)
+   |-Identification    : 41
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 26890
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1472002
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 35792
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:1023
+**Router** 1, PID: 1689, TCP from raw socket, length: 1023
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 1500  Bytes(Size of Packet)
+   |-Identification    : 46
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 26885
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1472002
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 35792
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:1023
+**Router** 1, PID: 1689, TCP from raw socket, length: 1023
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 1500  Bytes(Size of Packet)
+   |-Identification    : 120
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 26811
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1472002
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 35792
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:1023
+**Router** 1, PID: 1689, TCP from raw socket, length: 1023
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 1500  Bytes(Size of Packet)
+   |-Identification    : 123
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 26808
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1472002
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 35792
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:1023
+**Router** 1, PID: 1689, TCP from raw socket, length: 1023
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 1500  Bytes(Size of Packet)
+   |-Identification    : 126
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 26805
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1472002
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 35792
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:1023
+**Router** 1, PID: 1689, TCP from raw socket, length: 770
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 770  Bytes(Size of Packet)
+   |-Identification    : 129
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 27532
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1472002
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 12875
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:770
+**Proxy** PID:1688, received packet from tun, length: 40
+**Router** 1, PID: 1689, TCP from port: 38233, length: 40
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 40  Bytes(Size of Packet)
+   |-Identification    : 30146
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 14017
+   |-Source IP        : 10.0.2.15
+   |-Destination IP   : 128.30.2.32
+TCP Header
+   |-Source Port      : 33159
+   |-Destination Port : 80
+   |-Sequence Number    : 2650565641
+   |-Acknowledge Number : 1472732
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 30660
+   |-Checksum       : 42227
+   |-Urgent Pointer : 0
+
+tcp pack len: 5
+send tcp packet, size:20
+**Router** 1, PID: 1689, TCP from raw socket, length: 1023
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 1500  Bytes(Size of Packet)
+   |-Identification    : 130
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 26801
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1472732
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 4536
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:1023
+**Router** 1, PID: 1689, TCP from raw socket, length: 770
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 770  Bytes(Size of Packet)
+   |-Identification    : 135
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 27526
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1472732
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 63648
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:770
+**Proxy** PID:1688, received packet from tun, length: 40
+**Router** 1, PID: 1689, TCP from port: 38233, length: 40
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 40  Bytes(Size of Packet)
+   |-Identification    : 30147
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 14016
+   |-Source IP        : 10.0.2.15
+   |-Destination IP   : 128.30.2.32
+TCP Header
+   |-Source Port      : 33159
+   |-Destination Port : 80
+   |-Sequence Number    : 2650565641
+   |-Acknowledge Number : 1473462
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 32120
+   |-Checksum       : 40037
+   |-Urgent Pointer : 0
+
+tcp pack len: 5
+send tcp packet, size:20
+**Router** 1, PID: 1689, TCP from raw socket, length: 1023
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 1500  Bytes(Size of Packet)
+   |-Identification    : 136
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 26795
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1473462
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 4536
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:1023
+**Proxy** PID:1688, received packet from tun, length: 48
+**Router** 1, PID: 1689, TCP from raw socket, length: 770
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 770  Bytes(Size of Packet)
+   |-Identification    : 143
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 27518
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1473462
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 46824
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:770
+**Proxy** PID:1688, received packet from tun, length: 40
+**Router** 1, PID: 1689, TCP from port: 38233, length: 40
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 40  Bytes(Size of Packet)
+   |-Identification    : 30148
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 14015
+   |-Source IP        : 10.0.2.15
+   |-Destination IP   : 128.30.2.32
+TCP Header
+   |-Source Port      : 33159
+   |-Destination Port : 80
+   |-Sequence Number    : 2650565641
+   |-Acknowledge Number : 1474192
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 33580
+   |-Checksum       : 37847
+   |-Urgent Pointer : 0
+
+tcp pack len: 5
+send tcp packet, size:20
+**Router** 1, PID: 1689, TCP from raw socket, length: 1023
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 1500  Bytes(Size of Packet)
+   |-Identification    : 144
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 26787
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1474192
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 4536
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:1023
+**Router** 1, PID: 1689, TCP from raw socket, length: 770
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 770  Bytes(Size of Packet)
+   |-Identification    : 148
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 27513
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1474192
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 21628
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:770
+**Proxy** PID:1688, received packet from tun, length: 40
+**Router** 1, PID: 1689, TCP from port: 38233, length: 40
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 40  Bytes(Size of Packet)
+   |-Identification    : 30149
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 14014
+   |-Source IP        : 10.0.2.15
+   |-Destination IP   : 128.30.2.32
+TCP Header
+   |-Source Port      : 33159
+   |-Destination Port : 80
+   |-Sequence Number    : 2650565641
+   |-Acknowledge Number : 1474922
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 35040
+   |-Checksum       : 35657
+   |-Urgent Pointer : 0
+
+tcp pack len: 5
+send tcp packet, size:20
+**Router** 1, PID: 1689, TCP from raw socket, length: 1023
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 1500  Bytes(Size of Packet)
+   |-Identification    : 149
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 26782
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1474922
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 4536
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:1023
+**Router** 1, PID: 1689, TCP from raw socket, length: 770
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 770  Bytes(Size of Packet)
+   |-Identification    : 153
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 27508
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1474922
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 19817
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:770
+**Proxy** PID:1688, received packet from tun, length: 40
+**Router** 1, PID: 1689, TCP from port: 38233, length: 40
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 40  Bytes(Size of Packet)
+   |-Identification    : 30150
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 14013
+   |-Source IP        : 10.0.2.15
+   |-Destination IP   : 128.30.2.32
+TCP Header
+   |-Source Port      : 33159
+   |-Destination Port : 80
+   |-Sequence Number    : 2650565641
+   |-Acknowledge Number : 1475652
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 36500
+   |-Checksum       : 33467
+   |-Urgent Pointer : 0
+
+tcp pack len: 5
+send tcp packet, size:20
+**Router** 1, PID: 1689, TCP from raw socket, length: 1023
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 1500  Bytes(Size of Packet)
+   |-Identification    : 154
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 26777
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1475652
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 4536
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:1023
+**Router** 1, PID: 1689, TCP from raw socket, length: 770
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 770  Bytes(Size of Packet)
+   |-Identification    : 158
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 27503
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1475652
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 50424
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:770
+**Proxy** PID:1688, received packet from tun, length: 40
+**Router** 1, PID: 1689, TCP from port: 38233, length: 40
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 40  Bytes(Size of Packet)
+   |-Identification    : 30151
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 14012
+   |-Source IP        : 10.0.2.15
+   |-Destination IP   : 128.30.2.32
+TCP Header
+   |-Source Port      : 33159
+   |-Destination Port : 80
+   |-Sequence Number    : 2650565641
+   |-Acknowledge Number : 1476382
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 37960
+   |-Checksum       : 31277
+   |-Urgent Pointer : 0
+
+tcp pack len: 5
+send tcp packet, size:20
+**Router** 1, PID: 1689, TCP from raw socket, length: 1023
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 1500  Bytes(Size of Packet)
+   |-Identification    : 159
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 26772
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1476382
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 4536
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:1023
+**Router** 1, PID: 1689, TCP from raw socket, length: 770
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 770  Bytes(Size of Packet)
+   |-Identification    : 163
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 27498
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1476382
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 36094
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:770
+**Proxy** PID:1688, received packet from tun, length: 40
+**Router** 1, PID: 1689, TCP from port: 38233, length: 40
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 40  Bytes(Size of Packet)
+   |-Identification    : 30152
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 14011
+   |-Source IP        : 10.0.2.15
+   |-Destination IP   : 128.30.2.32
+TCP Header
+   |-Source Port      : 33159
+   |-Destination Port : 80
+   |-Sequence Number    : 2650565641
+   |-Acknowledge Number : 1477112
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 39420
+   |-Checksum       : 29087
+   |-Urgent Pointer : 0
+
+tcp pack len: 5
+send tcp packet, size:20
+**Router** 1, PID: 1689, TCP from raw socket, length: 1023
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 1500  Bytes(Size of Packet)
+   |-Identification    : 164
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 26767
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1477112
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 4536
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:1023
+**Router** 1, PID: 1689, TCP from raw socket, length: 405
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 405  Bytes(Size of Packet)
+   |-Identification    : 172
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 27854
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1477112
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 34574
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:405
+**Proxy** PID:1688, received packet from tun, length: 40
+**Router** 1, PID: 1689, TCP from port: 38233, length: 40
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 40  Bytes(Size of Packet)
+   |-Identification    : 30153
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 14010
+   |-Source IP        : 10.0.2.15
+   |-Destination IP   : 128.30.2.32
+TCP Header
+   |-Source Port      : 33159
+   |-Destination Port : 80
+   |-Sequence Number    : 2650565641
+   |-Acknowledge Number : 1477477
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 40880
+   |-Checksum       : 27262
+   |-Urgent Pointer : 0
+
+tcp pack len: 5
+send tcp packet, size:20
+**Router** 1, PID: 1689, TCP from raw socket, length: 770
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 770  Bytes(Size of Packet)
+   |-Identification    : 173
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 27488
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1477477
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 3806
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:770
+**Proxy** PID:1688, received packet from tun, length: 40
+**Router** 1, PID: 1689, TCP from port: 38233, length: 40
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 40  Bytes(Size of Packet)
+   |-Identification    : 30154
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 14009
+   |-Source IP        : 10.0.2.15
+   |-Destination IP   : 128.30.2.32
+TCP Header
+   |-Source Port      : 33159
+   |-Destination Port : 80
+   |-Sequence Number    : 2650565641
+   |-Acknowledge Number : 1478207
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 42340
+   |-Checksum       : 25072
+   |-Urgent Pointer : 0
+
+tcp pack len: 5
+send tcp packet, size:20
+**Router** 1, PID: 1689, TCP from raw socket, length: 1023
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 1091  Bytes(Size of Packet)
+   |-Identification    : 175
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 27165
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1478207
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 1
+   |-Window         : 65535
+   |-Checksum       : 4127
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:1023
+**Router** 1, PID: 1689, TCP from raw socket, length: 405
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 405  Bytes(Size of Packet)
+   |-Identification    : 180
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 27846
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1478207
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 65535
+   |-Checksum       : 63969
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:405
+**Proxy** PID:1688, received packet from tun, length: 40
+**Router** 1, PID: 1689, TCP from port: 38233, length: 40
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 40  Bytes(Size of Packet)
+   |-Identification    : 30155
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 14008
+   |-Source IP        : 10.0.2.15
+   |-Destination IP   : 128.30.2.32
+TCP Header
+   |-Source Port      : 33159
+   |-Destination Port : 80
+   |-Sequence Number    : 2650565641
+   |-Acknowledge Number : 1478572
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 43800
+   |-Checksum       : 23247
+   |-Urgent Pointer : 0
+
+tcp pack len: 5
+send tcp packet, size:20
+**Router** 1, PID: 1689, TCP from raw socket, length: 726
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 726  Bytes(Size of Packet)
+   |-Identification    : 181
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 27524
+   |-Source IP        : 128.30.2.32
+   |-Destination IP   : 192.168.201.2
+TCP Header
+   |-Source Port      : 80
+   |-Destination Port : 33159
+   |-Sequence Number    : 1478572
+   |-Acknowledge Number : 2650565641
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 1
+   |-Window         : 65535
+   |-Checksum       : 3762
+   |-Urgent Pointer : 0
+
+**Proxy** PID: 1688, TCP from port: 41927, length:726
+**Proxy** PID:1688, received packet from tun, length: 40
+**Router** 1, PID: 1689, TCP from port: 38233, length: 40
+
+***********************TCP Packet*************************
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 40  Bytes(Size of Packet)
+   |-Identification    : 30156
+   |-TTL      : 64
+   |-Protocol : 6
+   |-Checksum : 14007
+   |-Source IP        : 10.0.2.15
+   |-Destination IP   : 128.30.2.32
+TCP Header
+   |-Source Port      : 33159
+   |-Destination Port : 80
+   |-Sequence Number    : 2650565641
+   |-Acknowledge Number : 1479259
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 45260
+   |-Checksum       : 21100
+   |-Urgent Pointer : 0
+
+tcp pack len: 5
+send tcp packet, size:20
+**Proxy** PID:1688, received packet from tun, length: 48
